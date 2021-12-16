@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LinqToJoinTest
+﻿internal class JoinClass
 {
     /// <summary>
     /// 会社名テーブル
@@ -26,6 +20,6 @@ namespace LinqToJoinTest
 
         public string Password { get; set; }
 
-        public string CompanyId { get; set; }
+        public int CompanyId { get; set; }
     }
 }
